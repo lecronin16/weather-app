@@ -1,7 +1,7 @@
 
 
 const getWeather = async (city) => {
-    "apikey" = '0e46021db8de457fd3af62ceec85a56d';
+    apikey = '0e46021db8de457fd3af62ceec85a56d';
     const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${this.apikey}`)
     const data = await res.json() 
     const cityName = data.name
